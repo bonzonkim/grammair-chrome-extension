@@ -1,0 +1,16 @@
+{
+  "name": "Grammair",
+  "description": "Correct your English grammar instantly with our AI-powered tool. Get feedback on mistakes and improve your writing.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "./index.html",
+    "default_icon": "Grammair-logo-no-bg.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  },
+  "host_permissions": [
+    "http://localhost:8080/api/grammair"
+  ]
+}
