@@ -1,6 +1,6 @@
 {
   "name": "Grammair",
-  "description": "Correct your English grammar instantly with our AI-powered tool. Get feedback on mistakes and improve your writing.",
+  "description": "Correct your grammar instantly with AI-powered tool. Get feedback on mistakes and improve your writing.",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
